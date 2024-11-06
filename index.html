@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel='stylesheet' href='stylesheet.css'>
+  <head>
+    <title>My website</title>
+      <meta charset="UTF-8">
+      <meta name="viewport"  content="width=device-width, initial-scale=1">
+    <style>
+       /* body {
+       font-family: Arial, Helvetica, sans-serif;
+        } */
+    </style>
+  </head>
+
+  <!-- slideshow -->
+  <div class="image-container">
+    <section>
+      <img class="giraffeimg" src="/giraffe/f.jpg"
+        style="width:100%">
+      <img class="giraffeimg" src="/giraffe/a.jpg"
+        style= "width:100%">
+      <img class="giraffeimg" src="/giraffe/baby.avif"
+        style="width:100%">
+    </section>
+ <!-- giraffe -->
+    <div class="giraffe">Giraffe</div>
+    <div class="madeby">A website created by Hyeongbeen.</div>
+  </div>
+ <body>
+    <script>
+      // Automatic Slideshow - change image every 1.5 seconds
+       var myIndex = 0;
+       slide();
+       function slide() {
+         var i;
+         var x = document.getElementsByClassName("giraffeimg");
+         for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+         }
+         myIndex++;
+         if (myIndex > x.length) {myIndex = 1}
+         x[myIndex-1].style.display = "block";
+         setTimeout(slide, 1500);
+       }
+    </script>
+    <!-- navs -->
+    <div class="navbar">
+       <a href="index.html" class="homepage">
+       <span style="color: rgba(209, 120, 79, 0.648);">G</span>
+       <span style="color: rgb(255, 222, 115);">i</span>
+       <span style="color: rgba(209, 120, 79, 0.648);">r</span>
+       <span style="color: rgb(255, 222, 115);">a</span>
+       <span style="color: rgb(255, 222, 115);">f</span>
+       <span style="color: rgba(209, 120, 79, 0.648);">f</span>
+       <span style="color: rgb(255, 222, 115);">e</span>
+       </a>
+       <a href="species.html" class="">Species</a>
+       <a href="physical_ability.html" class="">Physical Ability</a>
+       <a href="diet.html" class="">Diet</a>
+       <a href="habitat.html" class="">Habitat</a>
+       <a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank">Learn More</a>
+    </div>
+    <div class="parallaxgiraffe"></div>
+    <div class="parallaxgiraffe"></div>
+    <div class="aboutgiraffestext" height="auto">
+      <h2>About giraffes</h2>
+      <p>Giraffes are the world's tallest mammals and they are known for their long neck which is taller than the average man and weighs up to 600 pounds. <br>
+      However, scientist still does not know why giraffes evolved to have so long necks. <br>
+      All we can know is that giraffes have seven vertebrae or neck bone as us human do execpt their bones are extremly long.<br>
+      Some characteristics that they have are...<br>
+      Tallest mammal<br>
+      Very long neck<br>
+      Short, stiff mane<br>
+      Long, black hair on tail; used as an insect-swatter <br>
+      Long prehensile tongue: 50 cm (20 in)<br>
+      Large brown eyes bordered by long, black lashes<br>
+      Large hooved feet<br>
+      </p>
+    </div>
+    <div class="parallaxgiraffe"></div>
+    <div class="parallaxgiraffe"></div>
+    <div class="row">
+      <div class="responsive">
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/giraffe_animal_savanna_1169680_938x1668.jpg" width="auto" height="1200">
+        </div>
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/asdf.jpg" width="auto" height="1200">
+        </div>
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/masai real.jpg" width="auto" height="1200">
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/long giraffe2-1.webp" width="auto" height="1200">
+        </div>
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/long giraffe2-2.jpg" width="auto" height="1200">
+        </div>
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/real long giraffe2-3.png" width="auto" height="1200">
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/long giraffe3-1.jpg" width="auto" height="1200">
+        </div>
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/long giraffe3-2.jpg" width="auto" height="1200">
+        </div>
+        <div class="aboutgiraffeimg">
+          <img src="/giraffe/long giraffe3-3.jpg" width="auto" height="1200">
+        </div>
+      </div>
+
+    </div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+    <div class="parallaxgiraffe2"></div>
+ </body>
+
+ <div class="footer">
+  <p>Author: Hyeongbeen Yim<br>
+    <a href="125-hyim@sd43.bc.ca">125-hyim@sd43.bc.ca</a></p>
+ </div>
+</html>
